@@ -25,8 +25,9 @@
     "name": "Elder Santos",
     "email": "eldersantos@gmail.com"
   },
-  "main": "index.js",
+  "main": "./lib/winston-postgre.js",
   "dependencies": {
+    "moment": "^2.8.1",
     "pg": "^3.4.0"
   }
 }
