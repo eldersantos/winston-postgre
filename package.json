@@ -1,0 +1,32 @@
+{
+  "name": "winston-postgre",
+  "version": "0.0.1",
+  "description": "A PostgreSQL transport for winston",
+  "keywords": [
+    "logging",
+    "postgre",
+    "postgresql",
+    "database",
+    "trace",
+    "pg",
+    "winston"
+  ],
+  "homepage": "https://github.com/eldersantos/winston-postgre",
+  "bugs": {
+    "url": "https://github.com/eldersantos/winston-postgre/issues"
+  },
+  "licenses": [
+    {
+      "type": "GPL2",
+      "url": "https://github.com/eldersantos/winston-postgre/blob/master/LICENSE"
+    }
+  ],
+  "author": {
+    "name": "Elder Santos",
+    "email": "eldersantos@gmail.com"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "pg": "^3.4.0"
+  }
+}

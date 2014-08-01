@@ -1,4 +1,4 @@
 winston-postgre
 ===============
 
-A winston trasnporter for PostgreSQL database
+A winston transporter for PostgreSQL database
