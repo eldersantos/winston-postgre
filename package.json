@@ -28,6 +28,7 @@
   "main": "./lib/winston-postgre.js",
   "dependencies": {
     "moment": "^2.8.1",
-    "pg": "^3.4.0"
+    "pg": "^3.4.0",
+    "winston": "^0.7.3"
   }
 }
