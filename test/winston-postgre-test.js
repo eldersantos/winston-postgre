@@ -1,16 +1,14 @@
 var winston = require('winston');
 var db = require('../lib/winston-postgre');
 
-
 var options = {
-  "connectionString" : "postgres://postgres:postgres@localhost/winstontest",
+  "connectionString" : "postgres://username:password@localhost/database",
   "schema" : "public",
   "table" : "nodelogs",
   "level" : "silly"
 };
 
 winston.add(winston.transports.PostgreSQL, options);
-
 
 winston.log('error', 'Just a simple error log');
 winston.log('info', 'Just a simple info log');
