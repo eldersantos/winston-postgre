@@ -33,9 +33,9 @@ See the default values used as example:
 ``` js
 var options = {
   "connectionString" : "postgres://username:password@localhost/database",
-  "schema" : "public",
-  "table" : "nodelogs",
-  "level" : "silly"
+  "schema" : "public", //default
+  "table" : "nodelogs", //default
+  "level" : "silly" //default level = info
 };
 ```
 
@@ -44,10 +44,10 @@ Usage
 
 ``` js
 var winston = require('winston');
-var db = require('../lib/winston-postgre');
+require('winston-postgre');
 
 var options = {
-  "connectionString" : "postgres://postgres:postgres@localhost/winstontest",
+  "connectionString" : "postgres://username:password@localhost/database",
   "schema" : "public",
   "table" : "nodelogs",
   "level" : "silly"
