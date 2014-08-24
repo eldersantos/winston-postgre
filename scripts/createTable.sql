@@ -2,5 +2,6 @@ CREATE TABLE nodelogs
 (
   logdate time without time zone,
   level text,
-  message text
+  message text,
+  meta text
 );
