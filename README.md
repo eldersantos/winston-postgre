@@ -14,7 +14,7 @@ Also, you need to have a table on your postgre database with the following struc
 ``` sql
 CREATE TABLE nodelogs
 (
-  logdate time without time zone,
+  logdate timestamp without time zone,
   level text,
   message text,
   meta text
